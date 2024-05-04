@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gold;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10vw;
+    font-size: 60px;
+    color: red;
+    text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+    animation: scale 3s infinite;  /* 设置动画为2秒钟的时间，并无限循环 */
+}
+
+
+/* 定义一个名为 scale 的动画 */
+@keyframes scale {
+    0% { transform: scale(1); }   /* 初始状态，元素原始大小 */
+    50% { transform: scale(1.5); } /* 中间状态，元素放大到1.5倍 */
+    100% { transform: scale(1); }  /* 结束状态，元素恢复原始大小 */
+  }
+
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+     transform: rotate(360deg);
+    }
+}
+
+.花 {
+    
+    animation:scale 3s infinite;
+
+}
+.花1 {
+    background-image: url(花1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10vw;
+    height: 20vw;
+    position: absolute;
+    top: 15vw;
+    left: 35vw;
+    animation: rotate 5s linear infinite;
+}
+.花2 {
+    background-image: url(花2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10vw;
+    height: 20vw;
+    position: absolute;
+    top: 7vw;
+    left: 35vw;
+    animation: rotate 7s linear infinite;
+}
+.花3 {
+    background-image: url(花3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10vw;
+    height: 20vw;
+    position: absolute;
+    top: 15vw;
+    left: 60vw;
+    animation: rotate 10s linear infinite;
+}
+.花4 {
+    background-image: url(花4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10vw;
+    height: 20vw;
+    position: absolute;
+    top: 7vw;
+    left: 60vw;
+    animation: rotate 3s linear infinite;
+}
+.花5 {
+    background-image: url(花5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10vw;
+    height: 20vw;
+    position: absolute;
+    top: 10vw;
+    left: 47vw;
+    animation: rotate 2s linear infinite;
+}
